@@ -1,0 +1,11 @@
+html, body {
+  width: 80px;
+}
+
+.hidden {
+  display: none;
+}
+
+.value {
+  text-align: center;
+}

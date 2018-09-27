@@ -1,0 +1,22 @@
+{
+
+  "manifest_version": 2,
+  "name": "Beastify",
+  "version": "1.0",
+
+  "description": "Adds a browser action icon to the toolbar. Click the icon to obtain currency exchange information",
+  "icons": {
+    "48": "icons/beasts-48.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/beasts-32.png",
+    "default_title": "Beastify",
+    "default_popup": "popup/currency.html"
+  }
+
+}
